@@ -1,6 +1,6 @@
         
 module Helpers
-    module DataBag
+    module DataBags
 
     # data_bag_fqdn
     #  This helper converts a fqdn from . notation to -'s 
@@ -19,10 +19,4 @@ module Helpers
   end
 end
 
-# Mix this helper in recipe 
-class Chef
-  class Recipe
-    include Helpers::DataBag
-  end
-end
 

@@ -1,5 +1,5 @@
 #
-# Cookbook Name:: databag-helper
+# Cookbook Name:: helpers-databags
 # Recipe:: default
 #
 #
