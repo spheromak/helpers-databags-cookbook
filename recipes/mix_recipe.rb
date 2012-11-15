@@ -1,6 +1,6 @@
 #Mix this helper in recipe 
 class Chef
   class Recipe
-    include Helpers::DataBag
+    include Helpers::DataBags
   end
 end
